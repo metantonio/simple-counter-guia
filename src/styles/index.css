@@ -10,3 +10,29 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.counter{
+    /*background-color: red;*/
+    text-align: center;
+    border-style: solid;
+    border-color: black 1px;
+}
+
+.boxes {
+    border: solid green 2px; /* otra forma de definir borde */
+    padding: 2px;
+}
+
+.boxes *{
+    display: inline-block;
+}
+
+.clock {
+    padding: 15px;
+    font-size: 70px;
+}
+
+.digit {   
+    border: solid red 2px; /* otra forma de definir borde */
+    padding: 1px;
+    font-size: 70px;
+}
